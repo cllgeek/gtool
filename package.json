@@ -1,0 +1,43 @@
+{
+  "name": "gtool",
+  "version": "1.0.0",
+  "description": "a javascript tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cllgeek/gtool.git"
+  },
+  "keywords": [
+    "javascript",
+    "tool",
+    "util"
+  ],
+  "author": "ll",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "chalk": "^2.3.0",
+    "copy": "^0.3.1",
+    "coveralls": "^3.0.0", //代码覆盖率
+    "karma": "^1.7.1", // 测试框架
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-power-assert": "^1.0.0",
+    "mocha": "^4.0.1",
+    "ora": "^1.3.0", // terminal loading
+    "power-assert": "^1.4.4", // 断言库
+    "rimraf": "^2.6.2",
+    "webpack": "^3.8.1"
+  },
+  "bugs": {
+    "url": "https://github.com/cllgeek/gtool/issues"
+  },
+  "homepage": "https://github.com/cllgeek/gtool#readme"
+}
